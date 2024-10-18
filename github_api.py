@@ -29,5 +29,5 @@ def get_user_repos_commits(user_id):
 
 # Example usage
 if __name__ == "__main__":
-    user = "richkempinski"  # Replace this with any GitHub username
+    user = "richkempinski"  # Replace this with any GitHub username.
     print(get_user_repos_commits(user))

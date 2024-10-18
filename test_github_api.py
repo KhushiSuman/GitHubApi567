@@ -12,7 +12,7 @@ class TestGitHubAPI(unittest.TestCase):
                 {"name": "repo1"},
                 {"name": "repo2"}
             ]),
-            # Mock response for commits in repo1
+            # Mock response for commits in repo1.
             unittest.mock.Mock(status_code=200, json=lambda: [{}] * 5),
             # Mock response for commits in repo2
             unittest.mock.Mock(status_code=200, json=lambda: [{}] * 10)
