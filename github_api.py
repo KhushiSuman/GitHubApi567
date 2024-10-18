@@ -31,3 +31,4 @@ def get_user_repos_commits(user_id):
 if __name__ == "__main__":
     user = "richkempinski"  # Replace this with any GitHub username.
     print(get_user_repos_commits(user))
+# Test trigger for GitHub Actions workflow
